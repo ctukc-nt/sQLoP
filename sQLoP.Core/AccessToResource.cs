@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Globalization;
+using Core.Interfaces;
 
 namespace sQLoP.Core
 {
-    public class AccessToResource
+    public class AccessToResource:IEntity
     {
         public DateTime Time { get; set; }
 
@@ -52,5 +53,7 @@ namespace sQLoP.Core
         {
             return $"{Time} {RemoteHost} {Bytes} {Method} {URL} {Type}";
         }
+
+        public int? Id { get; set; }
     }
 }

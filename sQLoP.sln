@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils.Common", "UPPY_v2\Uti
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mongo", "Mongo", "{E7FE8CA8-E1C4-461A-9342-25E0ECBD4F3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sQLoP.Mongo", "sQLoP.Mongo\sQLoP.Mongo.csproj", "{88E8CB5D-71B0-48C0-8DA7-04A36F93F9F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{49232DD5-96D7-45CD-A063-09FA9C148849}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49232DD5-96D7-45CD-A063-09FA9C148849}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49232DD5-96D7-45CD-A063-09FA9C148849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88E8CB5D-71B0-48C0-8DA7-04A36F93F9F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E8CB5D-71B0-48C0-8DA7-04A36F93F9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E8CB5D-71B0-48C0-8DA7-04A36F93F9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E8CB5D-71B0-48C0-8DA7-04A36F93F9F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
