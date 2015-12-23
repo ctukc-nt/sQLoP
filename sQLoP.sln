@@ -9,6 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sQLoP.Core", "sQLoP.Core\sQ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sQLoP.Console", "sQLoP.Console\sQLoP.Console.csproj", "{759E5975-F461-4F90-86C6-9C5F6084D389}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mongo.Common", "UPPY_v2\MongoWork\Mongo.Common.csproj", "{371A01EB-92FF-4FEF-871D-DA6E19A8FDD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "UPPY_v2\Core\Core.csproj", "{876F668F-5017-4CEE-8AE4-91E9B0E9E6B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils.Common", "UPPY_v2\Utils.Common\Utils.Common.csproj", "{49232DD5-96D7-45CD-A063-09FA9C148849}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mongo", "Mongo", "{E7FE8CA8-E1C4-461A-9342-25E0ECBD4F3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +35,25 @@ Global
 		{759E5975-F461-4F90-86C6-9C5F6084D389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{759E5975-F461-4F90-86C6-9C5F6084D389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{759E5975-F461-4F90-86C6-9C5F6084D389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371A01EB-92FF-4FEF-871D-DA6E19A8FDD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371A01EB-92FF-4FEF-871D-DA6E19A8FDD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371A01EB-92FF-4FEF-871D-DA6E19A8FDD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371A01EB-92FF-4FEF-871D-DA6E19A8FDD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876F668F-5017-4CEE-8AE4-91E9B0E9E6B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876F668F-5017-4CEE-8AE4-91E9B0E9E6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876F668F-5017-4CEE-8AE4-91E9B0E9E6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876F668F-5017-4CEE-8AE4-91E9B0E9E6B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49232DD5-96D7-45CD-A063-09FA9C148849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49232DD5-96D7-45CD-A063-09FA9C148849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49232DD5-96D7-45CD-A063-09FA9C148849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49232DD5-96D7-45CD-A063-09FA9C148849}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{371A01EB-92FF-4FEF-871D-DA6E19A8FDD8} = {E7FE8CA8-E1C4-461A-9342-25E0ECBD4F3C}
+		{876F668F-5017-4CEE-8AE4-91E9B0E9E6B6} = {E7FE8CA8-E1C4-461A-9342-25E0ECBD4F3C}
+		{49232DD5-96D7-45CD-A063-09FA9C148849} = {E7FE8CA8-E1C4-461A-9342-25E0ECBD4F3C}
 	EndGlobalSection
 EndGlobal
