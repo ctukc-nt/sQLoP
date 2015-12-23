@@ -1,0 +1,3 @@
+[submodule "UPPY_v2"]
+	path = UPPY_v2
+	url = https://github.com/ctukc-nt/UPPY_v2.git
